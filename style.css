@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* body {
+    background-image: url(./media/survey.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0%;
+    z-index: -1;
+} */
+
+body {
+    background-color: blue;
+    color: white;
+    margin: 2rem 20rem;
+}
+
+.page {
+    width: 40rem;
+    background-color: black;
+
+}
+
+.first {
+}
