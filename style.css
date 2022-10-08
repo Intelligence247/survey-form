@@ -4,27 +4,79 @@
     margin: 0;
 }
 
-/* body {
-    background-image: url(./media/survey.jpeg);
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    opacity: 0%;
-    z-index: -1;
-} */
-
-body {
-    background-color: blue;
-    color: white;
-    margin: 2rem 20rem;
-}
-
-.page {
-    width: 40rem;
-    background-color: black;
-
-}
-
 .first {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    line-height: 2rem;
+}
+
+main {
+    background-color: rgb(59, 59, 156);
+    color: aliceblue;
+    text-align: center;
+}
+
+form.survey-form {
+    margin: 2.5rem 20rem 0;
+    width: 43rem;
+    background-color: rgb(4, 13, 66);
+    text-align: left;
+    padding: 2.7rem;
+    font-size: larger;
+
+
+}
+
+.first input {
+    margin-bottom: 1rem;
+}
+
+.radio {
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.checkbox {
+    display: block;
+    display: flex;
+    flex-direction: column;
+}
+
+.sugestion {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2.3rem;
+
+
+}
+
+button {
+    height: 2rem;
+    color: aliceblue;
+    background-color: rgb(11, 133, 0);
+
+}
+
+select,
+input {
+    height: 2rem;
+    border-radius: 6px;
+}
+
+header {
+    line-height: 2.5rem;
+    padding-top: 2rem;
+    width: 40rem;
+    margin: 0 20rem;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 24px;
 }
