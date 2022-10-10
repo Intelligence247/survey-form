@@ -12,7 +12,8 @@
 }
 
 main {
-    background-color: rgb(59, 59, 156);
+    background: url("./media/survey.jpeg") rgb(59, 59, 156);
+    background-blend-mode: darken;
     color: aliceblue;
     text-align: center;
 }
