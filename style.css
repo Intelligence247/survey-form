@@ -16,6 +16,7 @@ main {
     background-blend-mode: darken;
     color: aliceblue;
     text-align: center;
+
 }
 
 form.survey-form {
@@ -80,4 +81,10 @@ h1 {
 
 p {
     font-size: 24px;
+}
+
+label {
+    justify-content: baseline;
+    display: flex;
+    gap: 10px;
 }
