@@ -24,7 +24,7 @@
                 Age (optional)<input type="number" placeholder="Age" name="age" />
                 <label>Which option best describes your current role?</label>
                 <select name="role" id="role">
-                    <label>What is your favorite feature of freeCodeCamp?</label>
+                    <div class="wid"> <label>What is your favorite feature of freeCodeCamp?</label></div>
                     <option value="first">select current role</option>
                     <option value="second">Student</option>
                     <option value="third">Full time job</option>
@@ -33,7 +33,7 @@
                     <option value="sixth">Others</option>
             </div>
             </select>
-            <label for="radio">Would you recommend freeCodeCamp to a friend</label>
+            <div class="wid"><label for="radio">Would you recommend freeCodeCamp to a friend</label></div>
             <div class="radio">
                 <label for="first"><input type="radio" name="abd"> Definitely</label>
                 <label for="second"><input type="radio" name="abd"> Maybe</label>
@@ -47,7 +47,8 @@
                 <option value="fifth">Open source</option>
             </select>
             <div class="checkbox">
-                <label for="ques">What would you like to improve? (check all that apply)</label>
+                <div class="wid"> <label for="ques">What would you like to see improve? (check all that apply)</label>
+                </div>
                 <label for="first"><input type="checkbox" name="prefer" id="fron"> Front-end Projects</label>
                 <label for="first"><input type="checkbox" name="prefer" id="fron"> back-end Projects</label>
                 <label for="first"><input type="checkbox" name="prefer" id="fron"> Data Visualization</label>
@@ -61,14 +62,16 @@
                 <label for="first"><input type="checkbox" name="prefer" id="fron"> Additional Courses</label>
             </div>
             <div class="sugestion">
-                <label for="sugestion">Any comments or Sugestions?</label>
+                <div class="wid"> <label for="sugestion">Any comments or Sugestions?</label></div>
                 <textarea name="comment" id="comment" cols="30" placeholder="Enter your comment here.."
                     rows="5"></textarea>
             </div>
             <button type="submit">Submit</button>
 
 
-
+            <!-- When a form gets submitted, the data is sent to the
+                 server and includes entries for the options selected. Inputs
+                  of type radio and checkbox report their values from the value attribute. -->
 
         </form>
     </main>
