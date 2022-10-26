@@ -10,6 +10,8 @@ Clone or download this repository and run with a local server of open `index.htm
 ## Tech/framework used
 - Html
 - Css
+## Preview here
+[demo](https://rawcdn.githack.com/Intelligence247/survey-form/a4d3aef7190c8d533fb6e1783b0b71790e62a0a7/index.html)
 
 ![screenshot](/media/sketch.png)
 ![screenshot](/media/sketch.png)
