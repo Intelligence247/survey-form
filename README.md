@@ -1,5 +1,7 @@
 # survey-form
 *An implementation of survey-form clone with html and css*
+## Getting Started
+Clone or download this repository and run with a local server of open `index.html` with your favorite browser
 ## Prequisite
 - Your browser version should be up to date for better experience
 ## Features
@@ -8,6 +10,10 @@
 ## Tech/framework used
 - Html
 - Css
+
+![screenshot](/media/sketch.png)
+![screenshot](/media/sketch.png)
+![screenshot](/media/sketch.png)
 ## Contact
 If you want to contact me you can reach me at
 - https://github.com/Intelligence247 or
